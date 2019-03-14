@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<head>
+	<link href="atm.css" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+<script type="text/javascript">
+    function myFunction() 
+	{
+	
+		var x = document.getElementById("uname").value;
+		var a ="abisek";
+
+ 		if (x==a)
+ 		 {
+  			location.replace("2.html")
+		 }
+  		else
+		{
+  			alert("Invalid user");
+		}
+
+
+	}	
+</script>
+	
+</head>
+
+
+<body>
+  <form action="uname.php" method="post">
+  <center><br><br>
+  <img src="images.png">
+  <br>
+  <h1 style="color: white"><b>Welcome to our Bank</b></h1><br>
+  <form>
+  <p style="color: white"><b>Enter your user name</b></p>
+  <input type="text" id="uname" name="fname"></form>
+ 
+
+  <button class="button button1" onclick="myFunction()">Log-in</button>
+  </center>
+  </form>
+
+
+</body>
+</html>
+
+
+
+
